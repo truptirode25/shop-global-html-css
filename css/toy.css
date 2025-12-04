@@ -46,30 +46,6 @@
      font-size: 16px;
  }
 
-
- .top-banner-baground {
-     background-color: #184880;
-     border-radius: 0px 0px 60% 60%;
-     height: 400px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: left;
- }
-
- .top-banner-container {
-     margin-bottom: 50px;
-
-     align-items: center;
-     display: flex;
- }
-
- .banner {
-     border-radius: 20px;
-     width: 780px;
- }
- 
-
  .card1 {
      background-color: #fff;
      border: 2px solid #000000;

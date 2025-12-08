@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,7 +11,7 @@
     margin: 80px auto;
     background: #fff;
     display: flex;
-    gap: 40px;                
+    gap: 40px;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@
 
 .Feedback-img img {
     width: 100%;
-    max-width: 320px;        
+    max-width: 320px;
     margin-top: 20px;
     display: block;
 }
@@ -45,11 +45,11 @@
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    color: #fff;              
+    color: #fff;
 }
 
 .right-section h2 {
-    color: #fff;              
+    color: #fff;
     margin-bottom: 20px;
 }
 
@@ -97,7 +97,7 @@ form button[type="submit"] {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 20px;
-    transition:  0.3s;
+    transition: 0.3s;
 }
 
 form button[type="submit"]:hover {

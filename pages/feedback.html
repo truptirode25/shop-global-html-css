@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./../css/feedback.css">
     <link rel="stylesheet" href="./../css/footer.css">
     <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="icon" href="./../images/common-image/main-logo.png" type="image-icon">
 </head>
 
-<body  style="margin: 0%; padding:0%; overflow-x:hidden">
-      <div>
+<body style="margin: 0%; padding:0%; overflow-x:hidden">
+    <div>
         <div class="navbar-main-container">
             <div class="logo-container">
                 <img src="./../images/common-image/main-logo.png" alt="smart shop logo " height="80px"
@@ -46,52 +47,52 @@
             </div>
         </div>
 
-    <div class="container">
+        <div class="container">
 
-        <div class="left-section">
-            <h1>ONLINE SHOPPING</h1>
-            <p>We value your feedback,Please share your experience with us.</p>
+            <div class="left-section">
+                <h1>ONLINE SHOPPING</h1>
+                <p>We value your feedback,Please share your experience with us.</p>
 
-            <div class="Feedback-img">
-                <img src="./../images/feedback-image/feedback-main-img.jpg"  alt="Shopping Image">
+                <div class="Feedback-img">
+                    <img src="./../images/feedback-image/feedback-main-img.jpg" alt="Shopping Image">
+                </div>
+            </div>
+
+            <div class="right-section">
+                <h2 style="color: #fff;">Shopping Feedback Form</h2>
+
+                <form>
+
+                    <label for="name"><img src="./../images/feedback-image/user.jpg" height="20px" />Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required pattern="[A-Za-z ]{3,}"
+                        title="Enter a valid name (only letters)">
+
+                    <label for="email"><img src="./../images/common-image/gmail.png" height="20px" />Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="rating"><img src="./../images/feedback-image/rate.jpg" height="20px" />Rate Your
+                        Shopping
+                        Experience</label>
+                    <select id="rating" required>
+                        <option value="">Choose...</option>
+                        <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                        <option value="4">⭐⭐⭐⭐ Very Good</option>
+                        <option value="3">⭐⭐⭐ Good</option>
+                        <option value="2">⭐⭐ Fair</option>
+                        <option value="1">⭐ Poor</option>
+                    </select>
+
+                    <label for="feedback"><img src="./../images/common-image/facebook.jpg" height="20px" />Your
+                        Feedback</label>
+                    <textarea id="feedback" placeholder="Write your feedback here..." required></textarea>
+
+                    <button type="submit">Submit Feedback</button>
+                </form>
             </div>
         </div>
 
-        <div class="right-section">
-            <h2 style="color: #fff;">Shopping Feedback Form</h2>
-
-            <form>
-
-                <label for="name"><img src="./../images/feedback-image/user.jpg" height="20px" />Name</label>
-                <input type="text" name="name" placeholder="Enter your name" required pattern="[A-Za-z ]{3,}"
-                    title="Enter a valid name (only letters)">
-
-                <label for="email"><img src="./../images/common-image/gmail.png" height="20px" />Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required>
-
-                <label for="rating"><img src="./../images/feedback-image/rate.jpg" height="20px" />Rate Your
-                    Shopping
-                    Experience</label>
-                <select id="rating" required>
-                    <option value="">Choose...</option>
-                    <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
-                    <option value="4">⭐⭐⭐⭐ Very Good</option>
-                    <option value="3">⭐⭐⭐ Good</option>
-                    <option value="2">⭐⭐ Fair</option>
-                    <option value="1">⭐ Poor</option>
-                </select>
-
-                <label for="feedback"><img src="./../images/common-image/facebook.jpg" height="20px" />Your
-                    Feedback</label>
-                <textarea id="feedback" placeholder="Write your feedback here..." required></textarea>
-
-                <button type="submit">Submit Feedback</button>
-            </form>
-        </div>
-    </div>
 
 
-    
         <footer>
             <div class="footer-container">
 
